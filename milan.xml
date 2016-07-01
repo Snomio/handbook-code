@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SnomIPPhoneText track="no">
     <Title>Milan</Title>
+    <!-- place the text 50px from the left margin -->
+    <LocationX>50</LocationX>
+    <!-- place the text 25px from the top margin -->
+    <LocationY>25</LocationY>
     <Text>
         Temp min: 20 °C<br/>
         Temp max: 30 °C<br/>
         Temp: 25 °C
     </Text>
+    <Image>
+        <!-- place the pic 2px from the left margin -->
+        <LocationX>2</LocationX>
+        <!-- place the pic 23px from the top margin -->
+        <LocationY>23</LocationY>
+        <Url>http://openweathermap.org/img/w/10d.png</Url>
+    </Image>
 </SnomIPPhoneText>
