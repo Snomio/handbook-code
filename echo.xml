@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+    <Title>Echo</Title>
+    <Text>
+        You entered: ${value}
+    </Text>
+</SnomIPPhoneText>
