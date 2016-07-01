@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <phone-settings>
+        <!-- remove the logon wizard -->
+        <logon_wizard>off</logon_wizard>    
+        <!-- remove PhoneWantsReboot from showed messages -->
+        <status_msgs_that_show_directly perm="">PhoneProvisioningStarting PhoneProvisioningInProgress PhoneProvisioningFailed PhoneHasIncomingPublicAnnouncement PhoneIsLocked EthernetUnplugged PhoneHasFirmwareUpdate FirmwareUpdateFailed PhoneWantsToUpdate VisionConnectionLost PhoneHasDisabledSipStack PhoneHasVpnError PhoneHasLowMemory PhoneRefusedHugeXcapSync CurrentIdentityIsNotRegistered PhoneIsWaitingForCallCompletion PhoneKnowsCallCanBeCompleted CurrentIdentityIsDnd CurrentIdentityForewardsWhenBusy CurrentIdentityForewardsAfterTimeout CurrentIdentityForewardsAlways LocationRetrievalFailed PhoneWaitsOnNtpServer PhoneCannotReachNtpServer PhoneHasNoHttpPassword PhoneHasNoAdminPassword ServerMessageToBeShownDirectly CurrentIdentityHasVoiceMessages PhoneHasMissedCalls CurrentIdentityHasTextMessages</status_msgs_that_show_directly>
+        <!-- remove PhoneWantsReboot from important messages -->
+        <status_msgs_that_are_important perm="">PhoneProvisioningFailed EthernetUnplugged PhoneHasFirmwareUpdate PhoneWantsToUpdate PhoneWantsReboot LocationRetrievalFailed PhoneHasDisabledSipStack PhoneHasVpnError PhoneHasLowMemory PhoneRefusedHugeXcapSync FirmwareUpdateFailed VisionConnectionLost CurrentIdentityIsNotRegistered Identity01IsNotRegistered Identity02IsNotRegistered Identity03IsNotRegistered Identity04IsNotRegistered Identity05IsNotRegistered Identity06IsNotRegistered Identity07IsNotRegistered Identity08IsNotRegistered Identity09IsNotRegistered Identity10IsNotRegistered Identity11IsNotRegistered Identity12IsNotRegistered PhoneCannotReachNtpServer PhoneHasNoHttpPassword PhoneHasNoAdminPassword Identity01ExtendedRegInfo Identity02ExtendedRegInfo Identity03ExtendedRegInfo Identity04ExtendedRegInfo Identity05ExtendedRegInfo Identity06ExtendedRegInfo Identity07ExtendedRegInfo Identity08ExtendedRegInfo Identity09ExtendedRegInfo Identity10ExtendedRegInfo Identity11ExtendedRegInfo Identity12ExtendedRegInfo</status_msgs_that_are_important>
+    </phone-settings>
+    <!-- Configure the function key 4 to load the logon application -->
+    <functionKeys>
+        <fkey idx="3" context="active" label="" perm="">url ${APP_URL}/logon.xml</fkey>
+    </functionKeys>
+</settings>

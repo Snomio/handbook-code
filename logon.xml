@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu track="false" speedselect="no">
+    <Title>Login Menu</Title>
+    <MenuItem name="User 1">
+        <Image>${APP_URL}/blue.png</Image>
+        <Url track="false">${APP_URL}/confirm.xml#var:action=on&amp;set:setting_server=${APP_URL}/profile1.xml</Url>
+    </MenuItem>
+    <MenuItem name="User 2">
+        <Image>${APP_URL}/green.png</Image>
+        <Url track="false">${APP_URL}/confirm.xml#var:action=on&amp;set:setting_server=${APP_URL}/profile2.xml</Url>
+    </MenuItem>
+    <MenuItem name="User 3">
+        <Image>${APP_URL}/yellow.png</Image>
+        <Url track="false">${APP_URL}/confirm.xml#var:action=on&amp;set:setting_server=${APP_URL}/profile3.xml</Url>
+    </MenuItem>
+    <MenuItem name="Log Off">
+        <Image>${APP_URL}/logoff.png</Image>
+        <Url track="false">${APP_URL}/confirm.xml#var:action=off&amp;set:setting_server=${APP_URL}/logoff.xml</Url>
+    </MenuItem>
+</SnomIPPhoneMenu>

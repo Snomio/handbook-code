@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText id="logon" track="false">
+    <Title>Logging $(var:action)</Title>
+    <Text>Logging $(var:action)...</Text>
+    <fetch mil="1000">snom://mb_exit#reloadset&amp;applyline</fetch>
+</SnomIPPhoneText>

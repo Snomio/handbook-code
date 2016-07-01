@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <!-- load the common settings file -->
+    <setting-files>
+        <file url="${APP_URL}/common.xml"/>
+    </setting-files>
+    <phone-settings>
+        <user_realname idx="1" perm="">User2</user_realname>
+        <user_name idx="1" perm="">user2</user_name>
+        <user_host idx="1" perm="">172.16.18.15</user_host>
+        <user_pass idx="1" perm="">protected</user_pass>
+    </phone-settings>
+</settings>
