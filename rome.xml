@@ -14,6 +14,11 @@
         <!-- better weather in Rome :) -->
         <Url>http://openweathermap.org/img/w/01d.png</Url>
     </Image>
+    <SoftKeyItem>
+        <Name>F1</Name>
+        <Label>Home</Label>
+        <URL>${APP_URL}/menu.xml</URL>
+    </SoftKeyItem>
     <!-- the second softkey will load the Milan application -->
     <SoftKeyItem>
         <Name>F2</Name>

@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SnomIPPhoneText track="no">
-    <Title>Milan</Title>
+    <Title>Berlin</Title>
     <LocationX>50</LocationX>
     <LocationY>25</LocationY>
     <Text>
-        Temp min: 20 °C<br/>
-        Temp max: 30 °C<br/>
-        Temp: 25 °C
+        Temp min: 15 °C<br/>
+        Temp max: 20 °C<br/>
+        Temp: 17 °C
     </Text>
     <Image>
         <LocationX>2</LocationX>
         <LocationY>23</LocationY>
-        <Url>http://openweathermap.org/img/w/10d.png</Url>
+        <Url>http://openweathermap.org/img/w/04d.png</Url>
     </Image>
     <SoftKeyItem>
         <Name>F1</Name>
         <Label>Home</Label>
         <URL>${APP_URL}/menu.xml</URL>
     </SoftKeyItem>
-    <!-- the second softkey will load the Rome application -->
     <SoftKeyItem>
         <Name>F2</Name>
-        <Label>Rome</Label>
-        <!-- ${APP_URL} will be overwritten by the server -->
-        <URL>${APP_URL}/rome.xml</URL>
+        <Label>Hamburg</Label>
+        <URL>${APP_URL}/hamburg.xml</URL>
     </SoftKeyItem>
 </SnomIPPhoneText>

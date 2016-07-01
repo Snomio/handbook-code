@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SnomIPPhoneMenu>
+    <Title>Weather</Title>
+    <Menu name="Italy">
+        <Title>Select an Italian City:</Title>
+        <MenuItem name="Milan">
+            <URL>${APP_URL}/milan.xml</URL>
+        </MenuItem>
+        <MenuItem name="Rome">
+            <URL>${APP_URL}/rome.xml</URL>
+        </MenuItem>
+    </Menu>
+    <Menu name="Germany">
+        <Title>Select an German City:</Title>
+        <MenuItem name="Berlin">
+            <URL>${APP_URL}/berlin.xml</URL>
+        </MenuItem>
+        <MenuItem name="Hamburg">
+            <URL>${APP_URL}/hamburg.xml</URL>
+        </MenuItem>
+    </Menu>
+</SnomIPPhoneMenu>
