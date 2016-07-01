@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SnomIPPhoneMenu>
+<SnomIPPhoneMenu track="no">
     <Title>Weather</Title>
     <Menu name="Italy">
         <Title>Select an Italian City:</Title>
         <MenuItem name="Milan">
+            <Image>http://openweathermap.org/img/w/10d.png</Image>
             <URL>${APP_URL}/milan.xml</URL>
         </MenuItem>
         <MenuItem name="Rome">
+            <Image>http://openweathermap.org/img/w/01d.png</Image>
             <URL>${APP_URL}/rome.xml</URL>
         </MenuItem>
     </Menu>
     <Menu name="Germany">
-        <Title>Select an German City:</Title>
+        <Title>Select a German City:</Title>
         <MenuItem name="Berlin">
+            <Image>http://openweathermap.org/img/w/04d.png</Image>
             <URL>${APP_URL}/berlin.xml</URL>
         </MenuItem>
         <MenuItem name="Hamburg">
+            <Image>http://openweathermap.org/img/w/50d.png</Image>
             <URL>${APP_URL}/hamburg.xml</URL>
         </MenuItem>
     </Menu>
