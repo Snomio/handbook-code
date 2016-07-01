@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneImageFile track="no">
+    <LocationX>00</LocationX>
+    <LocationY>00</LocationY>
+    <URL>https://webcam.nationalhotel.it/record/current.jpg</URL>
+    <fetch mil="300">${APP_URL}/webcam.xml</fetch>
+    <SoftKeyItem>
+        <Name>F1</Name>
+        <Label>Home</Label>
+        <URL>${APP_URL}/menu.xml</URL>
+    </SoftKeyItem>
+</SnomIPPhoneImageFile>
