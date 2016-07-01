@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SnomIPPhoneMenu track="no" speedselect="no"> <!-- speed select removed -->
+<SnomIPPhoneMenu track="no" speedselect="no">
     <Title>Weather</Title>
     <Menu name="Italy">
         <Title>Select an Italian City:</Title>
@@ -23,9 +23,10 @@
             <URL>${APP_URL}/hamburg.xml</URL>
         </MenuItem>
     </Menu>
-    <MenuItem name="Webcam">
-        <!-- Use the internal DND state icon -->
-        <Icon>file:///snom/bmp/colored/snom820_icon_buddy_dnd.png</Icon>
-        <URL>${APP_URL}/webcam.xml</URL>
-    </MenuItem>
+    <If condition="$(display_type)==color">
+        <MenuItem name="Webcam">
+            <Icon>file:///snom/bmp/colored/snom820_icon_buddy_dnd.png</Icon>
+            <URL>${APP_URL}/webcam.xml</URL>
+        </MenuItem>
+    </If>
 </SnomIPPhoneMenu>
